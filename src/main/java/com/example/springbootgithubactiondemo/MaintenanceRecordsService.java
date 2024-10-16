@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
-public class OneBasedServiceSpringApplication {
+public class MaintenanceRecordsService {
 
     public static void main(String[] args) {
-        SpringApplication.run(OneBasedServiceSpringApplication.class, args);
+        SpringApplication.run(MaintenanceRecordsService.class, args);
     }
 
 }
